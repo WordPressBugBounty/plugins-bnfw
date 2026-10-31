@@ -3,7 +3,7 @@
         'name' => 'bnfw/bnfw',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'c0f37e6bbebf8290b587541049b57ad980ad8ec8',
+        'reference' => 'b79a239943281d63425f75265b56d36db35b6f75',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'bnfw/bnfw' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'c0f37e6bbebf8290b587541049b57ad980ad8ec8',
+            'reference' => 'b79a239943281d63425f75265b56d36db35b6f75',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -5,7 +5,7 @@ Tags: notification, email, alert, message, notify
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.10
+Stable tag: 1.10.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Update URI: https://wordpress.org/plugins/bnfw/
@@ -248,6 +248,13 @@ Please report security bugs found in the source code of the Better Notification 
 
 
 == Changelog ==
+
+= 1.10.2 - 30th October 2026 =
+* Fixed: Completed the 1.10.1 shortcode hardening. Post and media titles, category/tag/term names, slugs and descriptions, and user name fields can no longer trigger shortcode execution in notifications. Reported by mroccon via Patchstack.
+* Changed: For security, notification templates now only run the plugin's own merge tags and post-content shortcodes. Other shortcodes placed directly in an email template are no longer executed.
+
+= 1.10.1 - 30th October 2026 =
+* Fixed: Security hardening for notification emails. Visitor- and user-supplied values (comment content and author details, post titles, and user profile fields) can no longer cause shortcodes to run on the server when a notification is generated, regardless of the "Enable Content Shortcodes" setting. Reported by mroccon via Patchstack.
 
 = 1.10 - 14th October 2026 =
 * Required: Add-ons now require Better Notifications for WP 1.10 (this version) or higher.
